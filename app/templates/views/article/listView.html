@@ -1,0 +1,7 @@
+<main ng-controller="articleCtrl">
+    <ul>
+        <li ng-repeat="article in articles">
+            <a ng-href="#!/article/{{article.slug}}">{{article.title}}</a>
+        </li>
+    </ul>
+</main>

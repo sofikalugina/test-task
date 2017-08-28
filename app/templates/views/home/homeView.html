@@ -1,0 +1,22 @@
+<main ng-controller="homeCtrl">
+
+    <section>
+        <my-component username="stranger"></my-component>
+    </section>
+
+    <section ng-repeat="section in homeContent.sections">
+        <h1>{{section.h1}}</h1>
+        <p>{{section.p}}</p>
+
+        <article ng-repeat="article in section.articles">
+            <h2>{{article.h2}}</h2>
+            <p>{{article.p}}</p>
+        </article>
+    </section>
+
+    <aside>
+        <h3>{{homeContent.aside.h3}}</h3>
+        <p>{{homeContent.aside.p1}}</p>
+        <p>{{homeContent.aside.p2}}</p>
+    </aside>
+</main>

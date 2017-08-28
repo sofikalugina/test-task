@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myTestApp">
+<head>
+    <meta charset="UTF-8">
+    <title>My test app</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div ng-include="'views/partials/headerPart.html'"></div>
+    <!-- NAVIGATION -->
+    <div ng-include="'views/partials/NavigationPart.html'"></div>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+
+        <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+        <div ui-view class="view"></div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div ng-include="'views/partials/footerPart.html'"></div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
