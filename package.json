@@ -1,0 +1,38 @@
+{
+  "name": "my-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sofikalugina/test-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-myth": "^1.1.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-npm-dist": "^0.1.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "myth": "^1.5.0",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {
+    "angular": "^1.6.6",
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "angular-ui-router": "^1.0.3"
+  }
+}
